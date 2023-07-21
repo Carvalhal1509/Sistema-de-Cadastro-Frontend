@@ -1,0 +1,91 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>Aplicações Distribuidas e WEB I</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="registration-form">
+        <form>
+            <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+
+            <div class="col-md-12 mb-2">
+                <input type="text" class="form-control" placeholder="Nome" required>
+                <div class="valid-feedback">Nome cadastrado com sucesso!</div>
+                <div class="invalid-feedback">Esse nome não está disponivel!</div>
+            </div>
+
+            <div class="col-md-12 mb-2">
+                <input type="email" class="form-control" placeholder="Email" required>
+                <div class="valid-feedback">Email cadastrado com sucesso!</div>
+                <div class="invalid-feedback">Esse email já está cadastrado!</div>
+            </div>
+
+            <div class="col-md-12 mb-2">
+                <input type="number" class="form-control" placeholder="Telefone" required>
+                <div class="valid-feedback">Telefone cadastrado com sucesso!</div>
+                <div class="invalid-feedback">Esse telefone já está cadastrado!</div>
+            </div>
+
+            <div class="col-md-12 mb-2">
+                <input type="date" class="form-control" placeholder="datanascimento" required>
+                <div class="valid-feedback">Data de nascimento cadastrado com sucesso!</div>
+                <div class="invalid-feedback">Data marcada incorretamente!</div>
+            </div>
+
+            <div class="col-md-12 mb-2">
+                <select class="form-select mt-3" required>
+                    <option selected disabled value="">Interesses</option>
+                    <option value="analise">Análise e desenvolvimento de Sistemas</option>
+                    <option value="banco">Banco de dados</option>
+                    <option value="dev">Desenvolvimento</option>
+                    <option value="engenharia">Engenharia de software</option>
+                    <option value="redes">Redes de computadores</option>
+                </select>
+                <div class="valid-feedback">Você selecionou o interesse</div>
+                <div class="invalid-feedback">Porfavor selecione a area de interesse!</div>
+            </div>
+
+
+            <div class="col-md-12 mt-3">
+                <label class="mb-3 mr-1" for="gender">Sexo: </label>
+
+                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                <label class="btn btn-sm btn-outline-secondary" for="male">Masculino</label>
+
+                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                <label class="btn btn-sm btn-outline-secondary" for="female">Feminino</label>
+
+                <div class="valid-feedback mv-up">você selecionou o sexo</div>
+                <div class="invalid-feedback mv-up">Porfavor selecione o sexo!</div>
+            </div>
+
+
+            <div class="col-md-12 mt-3">
+                <label class="mb-3 mr-1" for="estadociv">Estado civil: </label>
+
+                <input type="radio" class="btn-check" name="estadociv" id="solteiro" autocomplete="off" required>
+                <label class="btn btn-sm btn-outline-secondary" for="solteiro">Solteiro</label>
+
+                <input type="radio" class="btn-check" name="estadociv" id="casado" autocomplete="off" required>
+                <label class="btn btn-sm btn-outline-secondary" for="casado">Casado</label>
+
+                <div class="valid-feedback mv-up">você selecionou o estado civil</div>
+                <div class="invalid-feedback mv-up">Porfavor selecione o estado civil!</div>
+            </div>
+
+        </form>
+        </div>
+        </body>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de Cadastro Frontend", "Sistema de Cadastro Frontend.csproj", "{FFCDCFB9-52FB-4FA7-93D4-B5FF3E52A70F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCDCFB9-52FB-4FA7-93D4-B5FF3E52A70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCDCFB9-52FB-4FA7-93D4-B5FF3E52A70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCDCFB9-52FB-4FA7-93D4-B5FF3E52A70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCDCFB9-52FB-4FA7-93D4-B5FF3E52A70F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A51424ED-4C83-4DC0-A41B-53604C458B43}
+	EndGlobalSection
+EndGlobal
